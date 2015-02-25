@@ -9593,9 +9593,9 @@ meta.foundation-mq-topbar {
   display: block;
   width: 100%;
   color: #c12727;
-  padding: 12px 0 12px 0;
-  padding-left: 15px !important;
-  padding-right: 15px !important;
+  padding: 6px 0 6px 0;
+  padding-left: 9px !important;
+  padding-right: 9px !important;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
@@ -10032,9 +10032,6 @@ meta.foundation-mq-topbar {
 
 .top-bar {
   border-bottom: 2px solid #c12727;
-}
-.top-bar li a {
-  margin-left: 0px !important;
 }
 
 body {
@@ -12869,15 +12866,15 @@ label {
 }
 
 .link-box-pic-1 {
-  background: url(../assets/img/images/classes.jpg) no-repeat center center/cover;
+  background: url(../assets/img/images/raymond-mouzon-1.jpg) no-repeat center center/cover;
 }
 
 .link-box-pic-2 {
-  background: url(../assets/img/images/who-we-are.jpg) no-repeat center center/cover;
+  background: url(../assets/img/images/raymond-mouzon-2.jpg) no-repeat center center/cover;
 }
 
 .link-box-pic-3 {
-  background: url(../assets/img/images/online-training.jpg) no-repeat center center/cover;
+  background: url(../assets/img/images/raymond-mouzon-3.jpg) no-repeat center center/cover;
 }
 
 .testimonials blockquote {

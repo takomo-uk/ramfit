@@ -72,7 +72,7 @@ get_header(); ?>
                 <a href="?page_id=7">
                     <div class="link-box">
                         <div class="link-box-title">
-                            <h5>Who we are</h5>
+                            <h5>About</h5>
                         </div>
                         <div class="img-box link-box-pic-1">
                             
@@ -84,7 +84,7 @@ get_header(); ?>
                 <a href="?page_id=9">
                     <div class="link-box">
                         <div class="link-box-title">
-                            <h5>Classes</h5>
+                            <h5>Gallery</h5>
                         </div>
                         <div class="img-box link-box-pic-2">
                             
@@ -96,7 +96,7 @@ get_header(); ?>
                 <a href="?page_id=33">
                     <div class="link-box">
                         <div class="link-box-title">
-                            <h5>Online Training</h5>
+                            <h5>Merchandise</h5>
                         </div>
                         <div class="img-box link-box-pic-3">
                             
