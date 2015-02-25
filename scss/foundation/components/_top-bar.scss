@@ -16,7 +16,7 @@ $topbar-bg-color: rgba(0,0,0,0) !default;
 $topbar-bg: $topbar-bg-color !default;
 
 // Height and margin
-$topbar-height: 100px !default;
+$topbar-height: 90px !default;
 $topbar-margin-bottom: 50px !default;
 
 // Controlling the styles for the title in the top bar
@@ -699,4 +699,11 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
 
 .top-bar {
   border-bottom: 2px solid $primary-color;
+
+  // li a {
+  //   height: 85px !important;
+  // }
+  li a {
+    margin-left: 0px !important;
+  }
 }
