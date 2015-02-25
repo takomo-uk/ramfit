@@ -67,7 +67,7 @@
 }
 
 .gray-bg {
-    margin: 50px 0;
+    margin: 0 0 15px 0;
     background: #e2e0e0;
     opacity: 0.9;
 }
@@ -86,6 +86,15 @@
 
 
 // Typography
+
+.ram-title {
+    z-index: -999;
+    opacity: 0.1;
+
+    @media #{$small-only} {
+        margin-top: -3px;
+    }
+}
 
 .b-title {
     display: inline-block;

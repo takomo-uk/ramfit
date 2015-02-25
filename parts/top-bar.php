@@ -2,7 +2,7 @@
     <nav class="top-bar" data-topbar="">
         <ul class="title-area">
             <li class="name show-for-medium-up">
-                <h1 class="muscle-hustle">Muscle Hustle</h1>
+                <h1 class="ram-fitness">RAM Fitness - Raymond Anthony Mouzon Fitness</h1>
                 <h1><a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/ram-fitness-logo-small.png" /></a></h1>
             </li>
         </ul>
