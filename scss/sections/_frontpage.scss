@@ -1,0 +1,88 @@
+//
+// Styles for frontpage
+//
+
+.link-box {
+    margin: 17px 0 15px 0;
+    height: 300px;
+    background: $white;
+    overflow: hidden;
+
+    outline: 20px solid rgba(0,0,0,0);
+
+    -webkit-transition: ease-out 0.5s;
+    -moz-transition: ease-out 0.5s;
+    -o-transition: ease-out 0.5s;
+    transition: ease-out 0.5s;
+
+    &:hover {
+        outline: 5px solid $primary-color;
+
+        -webkit-transition: ease-out 0.5s;
+        -moz-transition: ease-out 0.5s;
+        -o-transition: ease-out 0.5s;
+        transition: ease-out 0.5s;
+    }
+}
+
+.img-box {
+    height: 100%;
+}
+
+.link-box-title {
+    background: $primary-color;
+    text-align: center;
+    padding: 8px 10px 4px 10px;
+
+    h5 {
+        text-transform: uppercase;
+        color: $white;
+    }
+}
+
+.link-box-pic-1 {
+    background: url(../assets/img/images/classes.jpg) no-repeat center center / cover;
+}
+
+.link-box-pic-2 {
+    background: url(../assets/img/images/who-we-are.jpg) no-repeat center center / cover;
+}
+
+.link-box-pic-3 {
+    background: url(../assets/img/images/online-training.jpg) no-repeat center center / cover;
+}
+
+.testimonials {
+    blockquote {
+        border: none;
+    }
+}
+
+.fb-title {
+    padding: 3px 0;
+    width: 100%;
+    color: $white;
+    background: #3b5999;
+    i {
+        margin: -16px -16px 0 7px;
+        font-size: 55px;
+        @media #{$small-only} {
+            font-size: 45px;
+        }
+    }
+    h3 {
+        margin-bottom: 4px;
+        color: $white;
+        @media #{$small-only} {
+            font-size: 18px;
+        }
+    }
+}
+
+.fb-feed {
+    margin-top: -20px; 
+}
+
+.fb {
+    height: 428px;
+}
