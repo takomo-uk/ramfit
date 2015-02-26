@@ -306,6 +306,11 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
           color: $topbar-link-color;
           padding: 6px 0 6px 0;
 
+          -webkit-transition: ease-out 0.3s;
+          -moz-transition: ease-out 0.3s;
+          -o-transition: ease-out 0.3s;
+          transition: ease-out 0.3s;
+
           // Edit these 2 for left and right padding in navigation links
           padding-#{$default-float}: 9px !important;
           padding-#{$opposite-direction}: 9px !important;

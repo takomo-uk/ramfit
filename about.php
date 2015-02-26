@@ -20,7 +20,7 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="medium-5 columns">
+    <div class="medium-5 columns animated bounceInRight">
         <img class="page-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/images/ram-fitness-raymond-1.jpg" />
     </div>
 </div>

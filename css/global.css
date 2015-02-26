@@ -9594,6 +9594,10 @@ meta.foundation-mq-topbar {
   width: 100%;
   color: #1c944b;
   padding: 6px 0 6px 0;
+  -webkit-transition: ease-out 0.3s;
+  -moz-transition: ease-out 0.3s;
+  -o-transition: ease-out 0.3s;
+  transition: ease-out 0.3s;
   padding-left: 9px !important;
   padding-right: 9px !important;
   font-family: "Droid Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
