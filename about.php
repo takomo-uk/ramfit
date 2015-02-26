@@ -6,9 +6,15 @@ get_header(); ?>
 
 
 <div class="row">
+    <div class="large-12 columns text-center">
+        <h3 class="b-title">About RAM Fitness</h3>
+    </div>
+</div>
+
+<div class="row">
     <div class="medium-7 columns animated rotateInUpRight text-center">
 
-        <h3 class="m-title">- Raymond Anthony Mouzon -<br>- Ram Fitness -</h3>
+        <h5 class="m-title">- Raymond Anthony Mouzon -<br>- Ram Fitness -</h5>
 
         <div class="space-top">
             <p>My name is Raymond Anthony Mouzon (Ram Fitness) and I am a certified Personal Trainer.</p>
@@ -31,7 +37,7 @@ get_header(); ?>
     </div>
 
     <div class="medium-6 columns space-top animated rotateInUpRight text-center">
-        <h4 class="m-title">Below is a list of my Qualifications & Achievements:</h4>
+        <h5 class="m-title">Below is a list of my Qualifications & Achievements:</h5>
 
         <ul class="qualifications text-left space-top">
             <li><i class="fi-check"></i> Level 3 Personal Trainer</li>

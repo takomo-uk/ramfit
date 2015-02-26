@@ -12,22 +12,15 @@
         border: 1px solid $primary-color !important;
         font-size: 12px;
         background: rgba(0,0,0,0);
-
-        @media #{$large-up} {
-            width: 40% !important;
-        }
     }
 
     textarea {
         width: 100% !important;
-
-        @media #{$large-up} {
-            width: 60% !important;
-        }
     }
 
     input[type=submit] {
-        width: 50% !important;
+        width: 100% !important;
+        margin-top: 0  !important;
         padding: 8px 0;
         color: $white;
         background: $primary-color !important;
@@ -35,6 +28,7 @@
 
         @media #{$large-up} {
             width: 25% !important;
+            float: right;
         }
     }
 }

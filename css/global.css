@@ -7833,7 +7833,7 @@ body {
   line-height: 1;
 }
 .pricing-table .title {
-  background-color: #333333;
+  background-color: #1c944b;
   padding: 0.9375rem 1.25rem;
   text-align: center;
   color: #eeeeee;
@@ -10021,7 +10021,7 @@ meta.foundation-mq-topbar {
   display: none;
 }
 
-.title {
+.nav-title {
   margin-top: 5px !important;
   background: url(../assets/img/images/ram-fitness-logo-smaller.png) center center no-repeat;
 }
@@ -12516,7 +12516,7 @@ th.hide-for-touch {
 
 .b-title {
   display: inline-block;
-  margin: 10px 0 30px 0;
+  margin: 5px 0 30px 0;
   color: #1c944b;
   text-transform: uppercase;
 }
@@ -12554,6 +12554,33 @@ th.hide-for-touch {
 .about-img {
   width: 80%;
   height: auto;
+}
+
+.testimonial-text {
+  margin-bottom: 10px;
+  padding: 10px 10px 0 10px;
+  border-left: 2px solid rgba(32, 169, 86, 0.3);
+  border-top: 2px solid rgba(32, 169, 86, 0.3);
+  font-size: 13px;
+}
+
+.testimonial-name {
+  display: inline;
+  padding: 0 8px 5px 8px;
+  color: #1c944b;
+  font-size: 12px;
+  border-radius: 3px;
+  border-right: 2px solid rgba(32, 169, 86, 0.3);
+  border-bottom: 2px solid rgba(32, 169, 86, 0.3);
+}
+
+.testimonial-box {
+  margin-bottom: 30px;
+}
+
+.bullet-item span {
+  font-weight: 600;
+  color: #1c944b;
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -12837,21 +12864,12 @@ th.hide-for-touch {
   font-size: 12px;
   background: rgba(0, 0, 0, 0);
 }
-@media only screen and (min-width: 64.063em) {
-  .contact-form input, .contact-form textarea {
-    width: 40% !important;
-  }
-}
 .contact-form textarea {
   width: 100% !important;
 }
-@media only screen and (min-width: 64.063em) {
-  .contact-form textarea {
-    width: 60% !important;
-  }
-}
 .contact-form input[type=submit] {
-  width: 50% !important;
+  width: 100% !important;
+  margin-top: 0  !important;
   padding: 8px 0;
   color: white;
   background: #1c944b !important;
@@ -12860,6 +12878,7 @@ th.hide-for-touch {
 @media only screen and (min-width: 64.063em) {
   .contact-form input[type=submit] {
     width: 25% !important;
+    float: right;
   }
 }
 
@@ -12967,7 +12986,7 @@ label {
 .page-footer {
   margin-top: 50px;
   color: #cccccc;
-  background: #303030;
+  background: #454545;
   padding: 20px 0;
   border-top: 3px solid #1c944b;
 }

@@ -98,7 +98,7 @@
 
 .b-title {
     display: inline-block;
-    margin: 10px 0 30px 0;
+    margin: 5px 0 30px 0;
     color: $primary-color;
     text-transform: uppercase;
 
@@ -124,6 +124,9 @@
     margin-top: 50px;
 }
 
+
+// image related
+
 .page-img {
     margin: 5px;
     border: 5px solid white;
@@ -140,4 +143,42 @@
 .about-img {
     width: 80%;
     height: auto;
+}
+
+
+// testimonials page styling
+
+.testimonial-text {
+    margin-bottom: 10px;
+    padding: 10px 10px 0 10px;
+
+    border-left: 2px solid rgba(32, 169, 86, 0.3);
+    border-top: 2px solid rgba(32, 169, 86, 0.3);
+
+    font-size: 13px;
+}
+
+.testimonial-name {
+    display: inline;
+    padding: 0 8px 5px 8px;
+    color: $primary-color;
+    font-size: 12px;
+    border-radius: 3px;
+
+    border-right: 2px solid rgba(32, 169, 86, 0.3);
+    border-bottom: 2px solid rgba(32, 169, 86, 0.3);
+}
+
+.testimonial-box {
+    margin-bottom: 30px;
+}
+
+
+// prices page styling
+
+.bullet-item {
+    span {
+        font-weight: 600;
+        color: $primary-color;
+    }
 }

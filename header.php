@@ -47,7 +47,7 @@
 		</section>
 		<section class="middle tab-bar-section">
 			
-			<a href="<?php echo home_url(); ?>"><h1 class="title"><span>.</span></h1></a>
+			<a href="<?php echo home_url(); ?>"><h1 class="nav-title"><span>.</span></h1></a>
 
 		</section>
 	</nav>
