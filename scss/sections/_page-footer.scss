@@ -4,9 +4,11 @@
 
 .page-footer {
     margin-top: 50px;
-    color: darken($white, 25%);
-    background: #2b2b2b;
-    padding: 10px 0;
+    color: darken($white, 20%);
+    background: lighten(#2b2b2b, 2%);
+    padding: 20px 0;
+
+    border-top: 3px solid $primary-color;
 }
 
 .footer-social {
@@ -47,24 +49,23 @@
     }
 }
 
-.footer-contact {
-    display: inline-block;
-    margin-left: 20px;
-    padding: 12px 0;
-    font-size: rem-calc(18);
+.footer-logo {
+    padding: 10px 0;
 
-
-    i {
-        color: $primary-color;
-        margin-left: 10px;
+    @media #{$large-up} {
+        float: right;
     }
 
-    a {
-        color: darken($white, 25%);
+    img {
+        width: 240px;
+        height: auto;
     }
+}
+
+.copyright {
+    font-size: 14px;
 
     @media #{$small-only}, #{$medium-only} {
-        display: block;
-        margin-left: 0;
+        text-align: center;
     }
 }

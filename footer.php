@@ -29,27 +29,17 @@
                 </li>
             </ul>
 
-            <div class="footer-contact">
+            <div class="footer-logo text-center">
 
-                <address class="show-for-large-up">
-                    Muscle Hustle &copy; 2014
-                    <i class="fi-telephone"></i>
-                    +44 77 18168851
-                    <a href="mailto:contact@muscle-hustle.co.uk"><i class="fi-mail"></i>
-                    contact@muscle-hustle.co.uk</a>
-
-                </address> 
-
-                <address class="show-for-small-up hidden-for-large-up text-center">
-                    Muscle Hustle &copy; 2014 <br>
-                    <i class="fi-telephone"></i>
-                    +44 77 18168851 <br>
-                    <a href="mailto:contact@muscle-hustle.co.uk"><i class="fi-mail"></i>
-                    contact@muscle-hustle.co.uk</a>
-
-                </address> 
+            <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/images/ram-fitness-logo-small.png" /></a>
 
             </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="large-12 columns copyright">
+            &copy; RAM Fitness 2015
         </div>
     </div>
 </div>

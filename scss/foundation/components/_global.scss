@@ -221,7 +221,7 @@ $base-line-height: 1.5 !default;
 }
 
 // We use these as default colors throughout
-$primary-color: #c12727 !default;   // bondi-blue
+$primary-color: darken(#20a956, 5%) !default;   // bondi-blue
 $secondary-color: #e7e7e7 !default; // white-lilac
 $alert-color: #f04124 !default;     // cinnabar
 $success-color: #43AC6A !default;   // sea-green
@@ -255,7 +255,7 @@ $font-weight-bold: bold !default;
 // We use these to control various global styles
 $body-bg: #efefef !default;
 $body-font-color: #222 !default;
-$body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !default;
+$body-font-family: "Droid Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !default;
 $body-font-weight: $font-weight-normal !default;
 $body-font-style: normal !default;
 
