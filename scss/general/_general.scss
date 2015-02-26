@@ -127,9 +127,17 @@
 .page-img {
     margin: 5px;
     border: 5px solid white;
+
+    -webkit-box-shadow: 3px 3px 25px darken($primary-color, 30%);
+    -moz-box-shadow: 3px 3px 25px darken($primary-color, 30%);
     box-shadow: 3px 3px 25px darken($primary-color, 30%);
 
     @media #{$medium-only} {
         margin-top: 35px;
     }
+}
+
+.about-img {
+    width: 80%;
+    height: auto;
 }

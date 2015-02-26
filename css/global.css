@@ -12541,12 +12541,19 @@ th.hide-for-touch {
 .page-img {
   margin: 5px;
   border: 5px solid white;
+  -webkit-box-shadow: 3px 3px 25px #04130a;
+  -moz-box-shadow: 3px 3px 25px #04130a;
   box-shadow: 3px 3px 25px #04130a;
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
   .page-img {
     margin-top: 35px;
   }
+}
+
+.about-img {
+  width: 80%;
+  height: auto;
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -12560,12 +12567,25 @@ th.hide-for-touch {
   color: #666666;
 }
 
-.qualif-list i {
+.qualifications {
+  padding-left: 5%;
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .qualifications {
+    padding-left: 15%;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  .qualifications {
+    padding-left: 27%;
+  }
+}
+.qualifications i {
   margin: 0 10px 0 -15px;
   font-size: 14px;
   color: #146935;
 }
-.qualif-list hr {
+.qualifications hr {
   margin: 7px 0;
 }
 

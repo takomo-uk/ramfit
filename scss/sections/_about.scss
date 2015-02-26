@@ -13,7 +13,17 @@
     color: lighten($black, 40%);
 }
 
-.qualif-list {
+.qualifications {
+    padding-left: 5%;
+
+    @media #{$medium-only} {
+        padding-left: 15%;
+    }    
+
+    @media #{$large-up} {
+        padding-left: 27%;
+    }
+
     i {
         margin: 0 10px 0 -15px;
         font-size: 14px;
