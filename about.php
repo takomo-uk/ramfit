@@ -6,7 +6,7 @@ get_header(); ?>
 
 
 <div class="row">
-    <div class="medium-7 columns animated bounceInRight text-center">
+    <div class="medium-7 columns animated rotateInUpRight text-center">
 
         <h3 class="m-title">- Raymond Anthony Mouzon -<br>- Ram Fitness -</h3>
 
@@ -20,17 +20,17 @@ get_header(); ?>
         </div>
     </div>
 
-    <div class="medium-5 columns animated bounceInRight text-center">
+    <div class="medium-5 columns animated rotateInUpRight text-center">
         <img class="page-img about-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/images/ram-fitness-raymond-1.jpg" />
     </div>
 </div>
 
 <div class="row space-top">
-    <div class="medium-6 columns animated bounceInRight text-center space-top">
+    <div class="medium-6 columns animated rotateInUpRight text-center space-top">
         <img class="page-img" src="<?php echo get_template_directory_uri(); ?>/assets/img/images/ram-fitness-raymond-2.png" />
     </div>
 
-    <div class="medium-6 columns space-top animated bounceInRight text-center">
+    <div class="medium-6 columns space-top animated rotateInUpRight text-center">
         <h4 class="m-title">Below is a list of my Qualifications & Achievements:</h4>
 
         <ul class="qualifications text-left space-top">
