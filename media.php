@@ -7,7 +7,7 @@ get_header(); ?>
 
 <div class="row">
     <div class="large-12 columns text-center">
-        <h2 class="b-title">Gallery</h2>
+        <h3 class="b-title">Gallery</h3>
     </div>
 
     <div class="large-6 columns">

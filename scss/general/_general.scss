@@ -149,7 +149,7 @@
 // testimonials page styling
 
 .testimonial-text {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding: 10px 10px 0 10px;
 
     border-left: 2px solid rgba(32, 169, 86, 0.3);
@@ -160,17 +160,13 @@
 
 .testimonial-name {
     display: inline;
-    padding: 0 8px 5px 8px;
     color: $primary-color;
     font-size: 12px;
     border-radius: 3px;
-
-    border-right: 2px solid rgba(32, 169, 86, 0.3);
-    border-bottom: 2px solid rgba(32, 169, 86, 0.3);
 }
 
 .testimonial-box {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 
