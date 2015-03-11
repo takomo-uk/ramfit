@@ -4,6 +4,8 @@ Template Name: Shop
 */
 get_header(); ?>
 
+fafw
+<?php get_template_part('parts/shop', 'menu'); ?>
 <div class="row">
 	
 	<div class="large-12 columns">

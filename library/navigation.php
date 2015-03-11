@@ -7,7 +7,8 @@
 register_nav_menus(array(
     'top-bar-l' => 'Left Top Bar', // registers the menu in the WordPress admin menu editor
     'top-bar-r' => 'Right Top Bar',
-    'mobile-off-canvas' => 'Mobile'
+    'mobile-off-canvas' => 'Mobile',
+    'shop-navi' => 'Shop menu'
 ));
 
 
@@ -78,6 +79,27 @@ if ( ! function_exists( 'foundationPress_mobile_off_canvas' ) ) {
 	}
 }
 
+
+// Shop menu
+if ( ! function_exists( 'foundationPress_shop_menu' ) ) {
+	function foundationPress_shop_menu() {
+	    wp_nav_menu(array( 
+	        'container' => false,                           // remove nav container
+	        'container_class' => '',                        // class of container
+	        'menu' => '',                                   // menu name
+	        'menu_class' => 'shop-menu',              // adding custom nav class
+	        'theme_location' => 'shop-navi',        // where it's located in the theme
+	        'before' => '',                                 // before each link <a> 
+	        'after' => '',                                  // after each link </a>
+	        'link_before' => '',                            // before each link text
+	        'link_after' => '',                             // after each link text
+	        'depth' => 5,                                   // limit the depth of the nav
+	        'fallback_cb' => false,                         // fallback function (see below)
+	        'walker' => new top_bar_walker()
+	    ));
+	}
+}
+
 /** 
  * Add support for buttons in the top-bar menu: 
  * 1) In WordPress admin, go to Apperance -> Menus. 
@@ -95,4 +117,3 @@ if ( ! function_exists( 'add_menuclass') ) {
 	add_filter('wp_nav_menu','add_menuclass');
 }
 
-?>

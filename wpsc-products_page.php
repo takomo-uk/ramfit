@@ -72,10 +72,10 @@ $image_width = get_option('product_image_width');
 		*/
 		?>
 
-		<div class="large-6 columns">
+	
 			<?php while (wpsc_have_products()) :  wpsc_the_product(); ?>
 
-				<div class="default_product_display product_view_<?php echo wpsc_the_product_id(); ?> <?php echo wpsc_category_class(); ?> group">
+				<div class="large-4 columns default_product_display product_view_<?php echo wpsc_the_product_id(); ?> <?php echo wpsc_category_class(); ?> group">
 					<h2 class="prodtitle entry-title">
 								<?php if(get_option('hide_name_link') == 1) : ?>
 									<?php echo wpsc_the_product_title(); ?>
@@ -230,12 +230,21 @@ $image_width = get_option('product_image_width');
 						<?php // */ ?>
 					</div><!--close productcol-->
 				<?php if(wpsc_product_on_special()) : ?><span class="sale"><?php _e('Sale', 'wpsc'); ?></span><?php endif; ?>
-			</div>
 		</div><!--close default_product_display-->
 
 		<?php endwhile; ?>
 		<?php /** end the product loop here */?>
 		</div>
+
+
+
+
+
+
+
+
+
+
 		<?php if(wpsc_product_count() == 0):?>
 			<h3><?php  _e('There are no products in this group.', 'wpsc'); ?></h3>
 		<?php endif ; ?>
